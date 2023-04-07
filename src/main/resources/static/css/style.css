@@ -1,0 +1,24 @@
+body{
+background-color: #AFEEEE;
+}
+
+.container {
+display: flex;
+justify-content:space-between;
+
+
+}
+h3{
+    text-align: center;
+    color: rgb(12, 92, 204);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+  }
+.nav-item{
+    padding-right: 15px;
+
+    padding-left: 65px;
+  }
+  
+  
