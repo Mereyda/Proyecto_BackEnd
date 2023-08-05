@@ -28,11 +28,11 @@ class OdontologoServiceTest {
         Assert.assertNotNull(odontologoDTO);
 
     }
-//    @Test
-//    public void eliminarOdontologoTest()throws  ResourceNotFoundException{
-//        odontologoService.eliminarOdontologo(10L);
-//
-//    }
+    @Test
+    public void eliminarOdontologoTest()throws  ResourceNotFoundException{
+        odontologoService.eliminarOdontologo(10L);
+
+    }
 
 
 }

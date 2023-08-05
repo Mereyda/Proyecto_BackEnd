@@ -33,11 +33,11 @@ class DomicilioServiceTest  {
         Assert.assertNotNull(domicilioDTO);
 
     }
-//    @Test
-//    public void eliminarDomicilioTest()throws  ResourceNotFoundException{
-//        domicilioService.eliminarDomicilio(0L);
-//
-//    }
+    @Test
+    public void eliminarDomicilioTest()throws  ResourceNotFoundException{
+        domicilioService.eliminarDomicilio(2L);
+
+    }
 
 
 

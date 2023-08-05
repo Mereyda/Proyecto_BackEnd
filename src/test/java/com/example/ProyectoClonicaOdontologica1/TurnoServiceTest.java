@@ -32,10 +32,10 @@ class TurnoServiceTest  {
         //Assert.assertNotNull(turnoDTO);
 
     }
-//    @Test
-//    public void eliminarTurnoTest()throws  ResourceNotFoundException{
-//        turnoService.eliminarTurno(0L);
-//
-//    }
+    @Test
+    public void eliminarTurnoTest()throws  ResourceNotFoundException{
+        turnoService.eliminarTurno(1L);
+
+    }
 
 }

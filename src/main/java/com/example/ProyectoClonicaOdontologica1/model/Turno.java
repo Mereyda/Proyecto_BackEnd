@@ -1,9 +1,8 @@
 package com.example.ProyectoClonicaOdontologica1.model;
 
-import jakarta.persistence.Entity;
 import lombok.*;
-import jakarta.persistence.*;
 
+import javax.persistence.*;
 import java.util.Date;
 
 @Builder

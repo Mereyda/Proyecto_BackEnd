@@ -38,12 +38,12 @@ class PacienteServiceTest  {
 
     }
 
-//    @Test
-//    void eliminarPaciente() throws ResourceNotFoundException {
-//        logger.debug("Eliminando un Paciente");
-//        pacienteService.eliminarPaciente(1L);
-//
-//    }
+    @Test
+    void eliminarPaciente() throws ResourceNotFoundException {
+        logger.debug("Eliminando un Paciente");
+        pacienteService.eliminarPaciente(1L);
+
+    }
 
 
 }
